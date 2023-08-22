@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1692678338000,
+          "updatedTime": 1692680406000,
           "title": "首页",
           "hero": {
             "image": "/short-logo.png",
