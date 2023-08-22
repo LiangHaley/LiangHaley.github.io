@@ -39,4 +39,4 @@ gulp.task('copyReadme', async function () {
   await gulp.src('../../README.md').pipe(gulp.dest('../../packages/hooks'));
 });
 
-exports.default = gulp.series('clean', 'es','cjs','declaration');
+exports.default = gulp.series('clean', 'es','cjs','declaration','copyReadme');

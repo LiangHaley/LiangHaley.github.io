@@ -14,15 +14,21 @@
           "path": "/guide"
         }
       ],
+      "/hooks": [
+        {
+          "title": "状态",
+          "children": [
+            {
+              "path": "/hooks/use-toggle",
+              "title": "useToggle"
+            }
+          ]
+        }
+      ],
       "/": [
         {
           "title": "首页",
           "path": "index"
-        }
-      ],
-      "/menus": [
-        {
-          "title": "状态"
         }
       ]
     }
@@ -41,7 +47,7 @@
       },
       {
         "title": "Hooks",
-        "path": "/menus"
+        "path": "/hooks"
       }
     ]
   },

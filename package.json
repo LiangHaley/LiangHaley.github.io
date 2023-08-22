@@ -9,6 +9,9 @@
     "start":"pnpm run dev",
     "build": "pnpm -r --filter=./packages/hooks run build",
     "dev":"dumi dev",
+    "pub:beta":"pnpm run build && pnpm -r --filter=./packages/hooks publish --tag beta",
+    "pub":"pnpm run build && pnpm -r --filter=./packages/hooks publish",
+    "test":"jest",
     "encode-fe-lint-scan": "encode-fe-lint scan",
     "encode-fe-lint-fix": "encode-fe-lint fix"
   },
@@ -33,7 +36,7 @@
     "babel-plugin-import": "^1.12.0",
     "coveralls": "^3.1.1",
     "cross-env": "^7.0.3",
-    "del": "^5.1.0",
+    "del": "^5.1.0",  
     "dumi": "^1.1.48",
     "encode-fe-lint": "^1.0.3",
     "eslint": "^7.2.0",

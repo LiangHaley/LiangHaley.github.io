@@ -1,6 +1,6 @@
 {
-    "name":"demo-hooks",
-    "version": "0.0.1",
+    "name":"demo-hooksliang",
+    "version": "0.0.4",
     "main": "./lib/index.js",
     "module": "./es/index.js",
     "types": "./lib/index.d.ts",
@@ -15,6 +15,12 @@
         "metadata.json",
         "package.json",
         "README.md"
+      ],
+      "keywords": [
+        "react",
+        "dumi",
+        "gulp",
+        "webpack"
       ],
       "dependencies": {
         "@babel/runtime": "^7.21.0",

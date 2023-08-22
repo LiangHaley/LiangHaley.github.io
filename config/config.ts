@@ -24,7 +24,7 @@ export default {
     manifest: {},
     hash: true,
     alias: {
-      encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+      demoHook: process.cwd() + '/packages/hooks/src/index.ts',
     },
     //引入站点
     resolve: {
@@ -40,7 +40,7 @@ export default {
     //导航栏的配置
     navs: [
       { title: '指南', path: '/guide' },
-      { title: 'Hooks', path: '/menus' },
+      { title: 'Hooks', path: '/hooks' },
     ],
     //指向的docs文件夹下的路径，默认Index
     menus: {
@@ -56,6 +56,6 @@ export default {
           path: '/guide',
         },
       ],
-      '/menus': menus,
+      '/hooks': menus,
     },
   };

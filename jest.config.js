@@ -1,0 +1,26 @@
+//针对浏览器黄精配置的基础jest 内容
+module.exports = {
+    preset: 'ts-jest/presets/js-with-ts',
+    testEnvironment: 'jsdom',
+    clearMocks: true,
+    testPathIgnorePatterns: ['/.history/'],
+    modulePathIgnorePatterns: ['<rootDir>/package.json'],
+    resetMocks: false,
+    setupFiles: ['./jest.setup.js', 'jest-localstorage-mock'],
+    setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
+    transform: {
+      '^.+\\.tsx?$': ['ts-jest', { tsconfig: 'tsconfig.json' }],
+    },
+    moduleNameMapper: {
+      '^lodash-es$': 'lodash',
+    },
+    collectCoverageFrom: [
+      '<rootDir>/**/src/**/*.{js,jsx,ts,tsx}',
+      '!**/demo/**',
+      '!**/example/**',
+      '!**/es/**',
+      '!**/lib/**',
+      '!**/dist/**',
+    ],
+    transformIgnorePatterns: ['^.+\\.js$'],
+  };

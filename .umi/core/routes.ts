@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1692513310472,
+          "updatedTime": 1692531911000,
           "title": "首页",
           "hero": {
             "image": "/short-logo.png",
@@ -111,7 +111,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1692515011289,
+          "updatedTime": 1692531911000,
           "slugs": [
             {
               "depth": 1,
@@ -191,6 +191,44 @@ export function getRoutes() {
           }
         },
         "title": "encode-hooks - react hooks"
+      },
+      {
+        "path": "/hooks/use-toggle",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useToggle__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useToggle/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useToggle/index.md",
+          "updatedTime": 1692606666828,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseToggle"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useToggle",
+              "heading": "usetoggle"
+            },
+            {
+              "depth": 2,
+              "value": "demo",
+              "heading": "demo"
+            }
+          ],
+          "title": "useToggle",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-toggle",
+            "title": "UseToggle"
+          }
+        },
+        "title": "useToggle - react hooks"
+      },
+      {
+        "path": "/hooks",
+        "meta": {},
+        "exact": true,
+        "redirect": "/hooks/use-toggle"
       }
     ],
     "title": "react hooks",
