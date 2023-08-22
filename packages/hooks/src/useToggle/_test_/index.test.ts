@@ -1,13 +1,8 @@
-import {renderHook,act} from '@testing-library/react'
+import {renderHook} from '@testing-library/react'
 import useToggle from "../index";
 const callToggle = (hook)=>{
     act(()=>{
         hook.result.current[1].toggle()
-    })
-}
-const callToggleLeft = (hook) =>{
-    act(()=>{
-        hook.result.current[1].setLeft()
     })
 }
 describe('useToggle',()=>{
