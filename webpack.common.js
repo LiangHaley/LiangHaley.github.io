@@ -3,6 +3,7 @@ module.exports={
         libraryTarget:'umd',
         globalObject:'this',
     },
+   publicPath: '/pnpmProject/'
     mode:'production',
     resolve:{
         extensions:['.json','.js']
