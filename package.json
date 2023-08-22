@@ -9,6 +9,7 @@
     "start":"pnpm run dev",
     "build": "pnpm -r --filter=./packages/hooks run build",
     "dev":"dumi dev",
+    "build:doc": "dumi build",
     "pub:beta":"pnpm run build && pnpm -r --filter=./packages/hooks publish --tag beta",
     "pub":"pnpm run build && pnpm -r --filter=./packages/hooks publish",
     "test":"jest",
