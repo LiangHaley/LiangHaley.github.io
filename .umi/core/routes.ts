@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1692531911000,
+          "updatedTime": 1692678338000,
           "title": "首页",
           "hero": {
             "image": "/short-logo.png",
@@ -198,7 +198,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useToggle/index.md",
-          "updatedTime": 1692606666828,
+          "updatedTime": 1692668835000,
           "nav": {
             "path": "/hooks",
             "title": "UseToggle"
