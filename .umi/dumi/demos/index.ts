@@ -47,7 +47,7 @@ export default {
       loader: async () => (await import(/* webpackChunkName: "demos_no_comp" */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useDebounce/demo/demo1.tsx')).default,
       loading: () => null,
     }),
-    previewerProps: {"sources":{"_":{"tsx":rawCode5}},"dependencies":{"react":{"version":"^16.8.0 || ^17.0.0 || ^18.0.0"},"demo-hooksliang":{"version":"0.0.4"}},"title":"基础用法","description":"<div class=\"markdown\"><p>切换 boolean，可以接收默认值。</p></div>","identifier":"usedebounce-demo1"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode5}},"dependencies":{},"identifier":"usedebounce-demo1"},
   },
   'usedebouncefn-demo1': {
     component: dynamic({
