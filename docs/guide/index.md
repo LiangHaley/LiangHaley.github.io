@@ -2,7 +2,7 @@
 
 React 业务 Hooks
 
-## ⛰️ 能力支持
+## ⛰️ 能力支持 
 
 ### 1. 可靠的代码健壮
 
@@ -45,16 +45,6 @@ React 业务 Hooks
 
 `jest`功能全面，资料丰富，能够很好地支撑原子化集合的工具函数；
 
-## 其他
-
-### 生成`CHANGELOG`
-
-参考[conventional-changelog-cli](https://www.npmjs.com/package/conventional-changelog-cli)，全局安装`conventional-changelog-cli`：
-
-```bash
-npm install -g conventional-changelog-cli
-pnpm run changelog
-```
 
 ## 📧 联系
 

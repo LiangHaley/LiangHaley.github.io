@@ -1,5 +1,6 @@
 import React from "react";
-import {useToggle} from 'demoHook';
+import {useToggle} from 'demo-hooksliang';
+// import './demo.css'
 export default ()=>{
     const [state,{toggle,setLeft,setRight}] = useToggle("HaleyLiang","LiangHaley");
     return <div>

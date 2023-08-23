@@ -41,6 +41,7 @@ export default {
     navs: [
       { title: '指南', path: '/guide' },
       { title: 'Hooks', path: '/hooks' },
+      {title: 'GitHub', path: 'https://github.com/LiangHaley/LiangHaley.github.io'}
     ],
     //指向的docs文件夹下的路径，默认Index
     menus: {

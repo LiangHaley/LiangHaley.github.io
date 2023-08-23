@@ -170,16 +170,6 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "其他",
-              "heading": "其他"
-            },
-            {
-              "depth": 3,
-              "value": "生成CHANGELOG",
-              "heading": "生成changelog"
-            },
-            {
-              "depth": 2,
               "value": "📧 联系",
               "heading": "-联系"
             }
@@ -191,6 +181,127 @@ export function getRoutes() {
           }
         },
         "title": "encode-hooks - react hooks"
+      },
+      {
+        "path": "/hooks/use-boolean",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useBoolean__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useBoolean/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useBoolean/index.md",
+          "updatedTime": 1692761584666,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseBoolean"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useBoolean",
+              "heading": "useboolean"
+            },
+            {
+              "depth": 2,
+              "value": "demo",
+              "heading": "demo"
+            },
+            {
+              "depth": 3,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Actions",
+              "heading": "actions"
+            }
+          ],
+          "title": "useBoolean",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-boolean",
+            "title": "UseBoolean"
+          }
+        },
+        "title": "useBoolean - react hooks"
+      },
+      {
+        "path": "/hooks/use-cookie-state",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useCookieState__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useCookieState/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useCookieState/index.md",
+          "updatedTime": 1692765671225,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseCookieState"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUnmount",
+              "heading": "useunmount"
+            },
+            {
+              "depth": 2,
+              "value": "demo",
+              "heading": "demo"
+            }
+          ],
+          "title": "useUnmount",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-cookie-state",
+            "title": "UseCookieState"
+          }
+        },
+        "title": "useUnmount - react hooks"
+      },
+      {
+        "path": "/hooks/use-latest",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useLatest__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useLatest/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useLatest/index.md",
+          "updatedTime": 1692770161925,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseLatest"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useLatest",
+              "heading": "uselatest"
+            },
+            {
+              "depth": 2,
+              "value": "demo",
+              "heading": "demo"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "title": "useLatest",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-latest",
+            "title": "UseLatest"
+          }
+        },
+        "title": "useLatest - react hooks"
       },
       {
         "path": "/hooks/use-toggle",
@@ -213,6 +324,21 @@ export function getRoutes() {
               "depth": 2,
               "value": "demo",
               "heading": "demo"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Actions",
+              "heading": "actions"
             }
           ],
           "title": "useToggle",
@@ -225,10 +351,42 @@ export function getRoutes() {
         "title": "useToggle - react hooks"
       },
       {
+        "path": "/hooks/use-unmount",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useUnmount__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useUnmount/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUnmount/index.md",
+          "updatedTime": 1692765671225,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUnmount"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUnmount",
+              "heading": "useunmount"
+            },
+            {
+              "depth": 2,
+              "value": "demo",
+              "heading": "demo"
+            }
+          ],
+          "title": "useUnmount",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-unmount",
+            "title": "UseUnmount"
+          }
+        },
+        "title": "useUnmount - react hooks"
+      },
+      {
         "path": "/hooks",
         "meta": {},
         "exact": true,
-        "redirect": "/hooks/use-toggle"
+        "redirect": "/hooks/use-boolean"
       }
     ],
     "title": "react hooks",

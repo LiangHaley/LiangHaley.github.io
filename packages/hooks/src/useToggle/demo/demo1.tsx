@@ -3,7 +3,7 @@
  * desc:当action中的值没有初始化时，默认是false
  */
 import React from "react";
-import {useToggle} from 'demoHook';
+import {useToggle} from 'demo-hooksliang';
 export default ()=>{
     const [state,{toggle,setLeft,setRight}] = useToggle();
     return <div>
