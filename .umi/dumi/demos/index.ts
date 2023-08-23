@@ -47,7 +47,7 @@ export default {
       loader: async () => (await import(/* webpackChunkName: "demos_no_comp" */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useDebounce/demo/demo1.tsx')).default,
       loading: () => null,
     }),
-    previewerProps: {"sources":{"_":{"tsx":rawCode5}},"dependencies":{},"identifier":"usedebounce-demo1"},
+    previewerProps: {"sources":{"_":{"tsx":rawCode5}},"dependencies":{"demo-hooksliang":{"version":"0.0.4"},"react":{"version":"^16.8.0 || ^17.0.0 || ^18.0.0"}},"title":"基础用法","description":"<div class=\"markdown\"><p>频繁调用 run，但只会在所有点击完成 500ms 后执行一次相关函数</p></div>","identifier":"usedebounce-demo1"},
   },
   'usedebouncefn-demo1': {
     component: dynamic({
