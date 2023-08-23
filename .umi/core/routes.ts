@@ -68,7 +68,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1692680406000,
+          "updatedTime": 1692773863000,
           "title": "首页",
           "hero": {
             "image": "/short-logo.png",
@@ -111,7 +111,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1692531911000,
+          "updatedTime": 1692773863000,
           "slugs": [
             {
               "depth": 1,
@@ -188,7 +188,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useBoolean/index.md",
-          "updatedTime": 1692761584666,
+          "updatedTime": 1692773863000,
           "nav": {
             "path": "/hooks",
             "title": "UseBoolean"
@@ -240,7 +240,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useCookieState/index.md",
-          "updatedTime": 1692765671225,
+          "updatedTime": 1692773863000,
           "nav": {
             "path": "/hooks",
             "title": "UseCookieState"
@@ -248,23 +248,167 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 1,
-              "value": "useUnmount",
-              "heading": "useunmount"
+              "value": "useCookieState",
+              "heading": "usecookiestate"
             },
             {
               "depth": 2,
               "value": "demo",
               "heading": "demo"
+            },
+            {
+              "depth": 3,
+              "value": "将 state 存储在 Cookie 中",
+              "heading": "将-state-存储在-cookie-中"
+            },
+            {
+              "depth": 3,
+              "value": "setState 可以接收函数",
+              "heading": "setstate-可以接收函数"
+            },
+            {
+              "depth": 3,
+              "value": "使用 option 配置 Cookie",
+              "heading": "使用-option-配置-cookie"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
             }
           ],
-          "title": "useUnmount",
+          "title": "useCookieState",
           "hasPreviewer": true,
           "group": {
             "path": "/hooks/use-cookie-state",
             "title": "UseCookieState"
           }
         },
-        "title": "useUnmount - react hooks"
+        "title": "useCookieState - react hooks"
+      },
+      {
+        "path": "/hooks/use-debounce",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useDebounce__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useDebounce/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useDebounce/index.md",
+          "updatedTime": 1692761584666,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseDebounce"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useBoolean",
+              "heading": "useboolean"
+            },
+            {
+              "depth": 2,
+              "value": "demo",
+              "heading": "demo"
+            },
+            {
+              "depth": 3,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Actions",
+              "heading": "actions"
+            }
+          ],
+          "title": "useBoolean",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-debounce",
+            "title": "UseDebounce"
+          }
+        },
+        "title": "useBoolean - react hooks"
+      },
+      {
+        "path": "/hooks/use-debounce-fn",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useDebounceFn__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useDebounceFn/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useDebounceFn/index.md",
+          "updatedTime": 1692787742373,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseDebounceFn"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useDebounceFn",
+              "heading": "usedebouncefn"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            }
+          ],
+          "title": "useDebounceFn",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-debounce-fn",
+            "title": "UseDebounceFn"
+          }
+        },
+        "title": "useDebounceFn - react hooks"
       },
       {
         "path": "/hooks/use-latest",
@@ -272,7 +416,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useLatest/index.md",
-          "updatedTime": 1692770161925,
+          "updatedTime": 1692773863000,
           "nav": {
             "path": "/hooks",
             "title": "UseLatest"
@@ -304,12 +448,59 @@ export function getRoutes() {
         "title": "useLatest - react hooks"
       },
       {
+        "path": "/hooks/use-memoized-fn",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useMemoizedFn__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useMemoizedFn/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useMemoizedFn/index.md",
+          "updatedTime": 1692781910086,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseMemoizedFn"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useMemoizedFn",
+              "heading": "usememoizedfn"
+            },
+            {
+              "depth": 2,
+              "value": "demo",
+              "heading": "demo"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "params",
+              "heading": "params"
+            }
+          ],
+          "title": "useMemoizedFn",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-memoized-fn",
+            "title": "UseMemoizedFn"
+          }
+        },
+        "title": "useMemoizedFn - react hooks"
+      },
+      {
         "path": "/hooks/use-toggle",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useToggle__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useToggle/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useToggle/index.md",
-          "updatedTime": 1692668835000,
+          "updatedTime": 1692773863000,
           "nav": {
             "path": "/hooks",
             "title": "UseToggle"
@@ -356,7 +547,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUnmount/index.md",
-          "updatedTime": 1692765671225,
+          "updatedTime": 1692773863000,
           "nav": {
             "path": "/hooks",
             "title": "UseUnmount"
@@ -371,6 +562,16 @@ export function getRoutes() {
               "depth": 2,
               "value": "demo",
               "heading": "demo"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "参数",
+              "heading": "参数"
             }
           ],
           "title": "useUnmount",
@@ -386,7 +587,7 @@ export function getRoutes() {
         "path": "/hooks",
         "meta": {},
         "exact": true,
-        "redirect": "/hooks/use-boolean"
+        "redirect": "/hooks/use-unmount"
       }
     ],
     "title": "react hooks",

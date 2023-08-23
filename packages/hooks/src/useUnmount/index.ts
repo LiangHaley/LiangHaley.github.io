@@ -1,13 +1,17 @@
 import {useEffect} from 'react'
 import useLatest from '../useLatest'
 import { isFunction } from '../utils';
-type defultFn = () =>void;
-export interface Actions<T>{
-    setLeft:defultFn;
-    setRight:defultFn;
-    toggle:defultFn;
-}
-function useUnmount<D,R>(defaultValue:D = false as D ,reversevalue?:R){
- 
+import isDev from '../utils/isDev';
+
+function useUnmount(fn:()=>void){
+    if(isDev){
+        if(!isFunction(fn)){
+            console.error(`useUnmount expeacted parameter is a function, got ${typeof fn}`)
+        }
+    }
+    const fnRef = useLatest(fn);
+    useEffect(()=>()=>{
+        fnRef.current();
+    },[])
 }
 export default useUnmount

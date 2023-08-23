@@ -1,10 +1,14 @@
 export const menus = [
   {
     title: '生命周期',
-    // children: ['useUnmount'],
+    children: ['useUnmount'],
   },
     {
       title: '状态',
-      children: ['useToggle','useBoolean','useLatest'],
+      children: ['useToggle','useBoolean','useLatest','useMemoizedFn','useCookieState'],
+    },
+    {
+      title: 'Effect',
+      children: ['useDebounceFn']
     },
   ];

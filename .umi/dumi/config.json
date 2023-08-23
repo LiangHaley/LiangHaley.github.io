@@ -16,7 +16,13 @@
       ],
       "/hooks": [
         {
-          "title": "生命周期"
+          "title": "生命周期",
+          "children": [
+            {
+              "path": "/hooks/use-unmount",
+              "title": "useUnmount"
+            }
+          ]
         },
         {
           "title": "状态",
@@ -32,6 +38,23 @@
             {
               "path": "/hooks/use-latest",
               "title": "useLatest"
+            },
+            {
+              "path": "/hooks/use-memoized-fn",
+              "title": "useMemoizedFn"
+            },
+            {
+              "path": "/hooks/use-cookie-state",
+              "title": "useCookieState"
+            }
+          ]
+        },
+        {
+          "title": "Effect",
+          "children": [
+            {
+              "path": "/hooks/use-debounce-fn",
+              "title": "useDebounceFn"
             }
           ]
         }
