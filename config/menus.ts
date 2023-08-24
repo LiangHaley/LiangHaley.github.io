@@ -5,7 +5,7 @@ export const menus = [
   },
     {
       title: '状态',
-      children: ['useToggle','useBoolean','useLatest','useMemoizedFn','useCookieState'],
+      children: ['useToggle','useBoolean','useLatest','useMemoizedFn','useCookieState','useDebounce','useGetState','useUpdateEffect','useLocalStorageState','useMap'],
     },
     {
       title: 'Effect',

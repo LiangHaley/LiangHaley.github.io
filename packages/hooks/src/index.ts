@@ -6,6 +6,11 @@ import useLatest from './useLatest'
 import useMemoizedFn from './useMemoizedFn'
 import useCookieState from './useCookieState'
 import useDebounceFn from './useDebounceFn'
+import useDebounce from './useDebounce'
+import useGetState from './useGetState'
+import useUpdateEffect from './useUpdateEffect'
+import useLocalStorageState from './useLocalStorageState'
+import useMap from "./useMap";
 export{
     useUnmount,
     useToggle,
@@ -13,5 +18,10 @@ export{
     useLatest,
     useMemoizedFn,
     useCookieState,
-    useDebounceFn
+    useDebounceFn,
+    useDebounce,
+    useGetState,
+    useUpdateEffect,
+    useLocalStorageState,
+    useMap
 }

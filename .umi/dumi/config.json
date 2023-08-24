@@ -46,6 +46,26 @@
             {
               "path": "/hooks/use-cookie-state",
               "title": "useCookieState"
+            },
+            {
+              "path": "/hooks/use-debounce",
+              "title": "useDebounce"
+            },
+            {
+              "path": "/hooks/use-get-state",
+              "title": "useGetState"
+            },
+            {
+              "path": "/hooks/use-update-effect",
+              "title": "useUpdateEffect"
+            },
+            {
+              "path": "/hooks/use-local-storage-state",
+              "title": "useLocalStorageState"
+            },
+            {
+              "path": "/hooks/use-map",
+              "title": "useMap"
             }
           ]
         },

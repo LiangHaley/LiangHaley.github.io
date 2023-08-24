@@ -240,7 +240,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useCookieState/index.md",
-          "updatedTime": 1692773863000,
+          "updatedTime": 1692788094000,
           "nav": {
             "path": "/hooks",
             "title": "UseCookieState"
@@ -307,7 +307,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useDebounce/index.md",
-          "updatedTime": 1692761584666,
+          "updatedTime": 1692788094000,
           "nav": {
             "path": "/hooks",
             "title": "UseDebounce"
@@ -315,16 +315,21 @@ export function getRoutes() {
           "slugs": [
             {
               "depth": 1,
-              "value": "useBoolean",
-              "heading": "useboolean"
+              "value": "useDebounce",
+              "heading": "usedebounce"
             },
             {
               "depth": 2,
-              "value": "demo",
-              "heading": "demo"
+              "value": "代码演示",
+              "heading": "代码演示"
             },
             {
               "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
               "value": "API",
               "heading": "api"
             },
@@ -335,23 +340,18 @@ export function getRoutes() {
             },
             {
               "depth": 3,
-              "value": "Result",
-              "heading": "result"
-            },
-            {
-              "depth": 3,
-              "value": "Actions",
-              "heading": "actions"
+              "value": "Options",
+              "heading": "options"
             }
           ],
-          "title": "useBoolean",
+          "title": "useDebounce",
           "hasPreviewer": true,
           "group": {
             "path": "/hooks/use-debounce",
             "title": "UseDebounce"
           }
         },
-        "title": "useBoolean - react hooks"
+        "title": "useDebounce - react hooks"
       },
       {
         "path": "/hooks/use-debounce-fn",
@@ -359,7 +359,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useDebounceFn/index.md",
-          "updatedTime": 1692787742373,
+          "updatedTime": 1692788094000,
           "nav": {
             "path": "/hooks",
             "title": "UseDebounceFn"
@@ -411,6 +411,53 @@ export function getRoutes() {
         "title": "useDebounceFn - react hooks"
       },
       {
+        "path": "/hooks/use-get-state",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useGetState__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useGetState/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useGetState/index.md",
+          "updatedTime": 1692848073113,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseGetState"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useGetState",
+              "heading": "usegetstate"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "类型定义",
+              "heading": "类型定义"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "title": "useGetState",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-get-state",
+            "title": "UseGetState"
+          }
+        },
+        "title": "useGetState - react hooks"
+      },
+      {
         "path": "/hooks/use-latest",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useLatest__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useLatest/index.md')}),
         "exact": true,
@@ -448,12 +495,126 @@ export function getRoutes() {
         "title": "useLatest - react hooks"
       },
       {
+        "path": "/hooks/use-local-storage-state",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useLocalStorageState__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useLocalStorageState/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useLocalStorageState/index.md",
+          "updatedTime": 1692850607630,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseLocalStorageState"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useLocalStorageState",
+              "heading": "uselocalstoragestate"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "将 state 存储在 localStorage 中",
+              "heading": "将-state-存储在-localstorage-中"
+            },
+            {
+              "depth": 3,
+              "value": "存储复杂类型数据",
+              "heading": "存储复杂类型数据"
+            },
+            {
+              "depth": 3,
+              "value": "自定义序列化和反序列化函数",
+              "heading": "自定义序列化和反序列化函数"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
+            },
+            {
+              "depth": 2,
+              "value": "备注",
+              "heading": "备注"
+            }
+          ],
+          "title": "useLocalStorageState",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-local-storage-state",
+            "title": "UseLocalStorageState"
+          }
+        },
+        "title": "useLocalStorageState - react hooks"
+      },
+      {
+        "path": "/hooks/use-map",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useMap__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useMap/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useMap/index.md",
+          "updatedTime": 1692851237364,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseMap"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useMap",
+              "heading": "usemap"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            }
+          ],
+          "title": "useMap",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-map",
+            "title": "UseMap"
+          }
+        },
+        "title": "useMap - react hooks"
+      },
+      {
         "path": "/hooks/use-memoized-fn",
         "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useMemoizedFn__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useMemoizedFn/index.md')}),
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useMemoizedFn/index.md",
-          "updatedTime": 1692781910086,
+          "updatedTime": 1692788094000,
           "nav": {
             "path": "/hooks",
             "title": "UseMemoizedFn"
@@ -547,7 +708,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUnmount/index.md",
-          "updatedTime": 1692773863000,
+          "updatedTime": 1692788094000,
           "nav": {
             "path": "/hooks",
             "title": "UseUnmount"
@@ -582,6 +743,48 @@ export function getRoutes() {
           }
         },
         "title": "useUnmount - react hooks"
+      },
+      {
+        "path": "/hooks/use-update-effect",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'packages__hooks__src__useUpdateEffect__index.md' */'C:/Users/MS/Desktop/project/PnpmReact/packages/hooks/src/useUpdateEffect/index.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUpdateEffect/index.md",
+          "updatedTime": 1692849886090,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUpdateEffect"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUpdateEffect",
+              "heading": "useupdateeffect"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "title": "useUpdateEffect",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-update-effect",
+            "title": "UseUpdateEffect"
+          }
+        },
+        "title": "useUpdateEffect - react hooks"
       },
       {
         "path": "/hooks",

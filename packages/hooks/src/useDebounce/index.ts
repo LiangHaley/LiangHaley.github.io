@@ -1,24 +1,21 @@
-import {useMemo} from 'react'
-import useToggle from '../useToggle'
-export interface Actions {
-    setTrue: () => void;
-    setFalse: () => void;
-    set: (value: boolean) => void; 
-    toggle: () => void;
+import {useEffect,useState} from 'react'
+import useDebounceFn from '../useDebounceFn';
+interface DebounceOptions {
+    wait?: number;
+    leading?: boolean;
+    trailing?: boolean;
+    maxWait?: number;
   }
-  function useBoolean(defaultValue = false): [boolean, Actions] {
-    const [state, { toggle, set }] = useToggle(!!defaultValue);
-    const actions: Actions = useMemo(() => {
-        const setTrue = () =>set(true);
-        const setFalse = ()=>set(false);
-        
-        return {
-            toggle,
-            set:(v) =>set(!!v),
-            setTrue,
-            setFalse
-        }
-    },[]);
-    return [state,actions] 
+  function useDebounce<T>(value,options){
+   const [debounced,setDebounced] = useState(value);
+   //只获取useDebounceFn 中返回值 run
+   const {run} = useDebounceFn(()=>{
+        setDebounced(value)
+   },options);
+   //执行副作用函数
+   useEffect(()=>{
+    run()
+   },[value]);
+   return debounced
 }
-export default useBoolean
+export default useDebounce
