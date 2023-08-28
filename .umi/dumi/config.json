@@ -21,6 +21,10 @@
             {
               "path": "/hooks/use-unmount",
               "title": "useUnmount"
+            },
+            {
+              "path": "/hooks/use-unmounted-ref",
+              "title": "useUnmountedRef"
             }
           ]
         },
@@ -28,12 +32,12 @@
           "title": "状态",
           "children": [
             {
-              "path": "/hooks/use-toggle",
-              "title": "useToggle"
-            },
-            {
               "path": "/hooks/use-boolean",
               "title": "useBoolean"
+            },
+            {
+              "path": "/hooks/use-toggle",
+              "title": "useToggle"
             },
             {
               "path": "/hooks/use-latest",
@@ -66,6 +70,26 @@
             {
               "path": "/hooks/use-map",
               "title": "useMap"
+            },
+            {
+              "path": "/hooks/use-previous",
+              "title": "usePrevious"
+            },
+            {
+              "path": "/hooks/use-reset-state",
+              "title": "useResetState"
+            },
+            {
+              "path": "/hooks/use-safe-state",
+              "title": "useSafeState"
+            },
+            {
+              "path": "/hooks/use-session-storage-state",
+              "title": "useSessionStorageState"
+            },
+            {
+              "path": "/hooks/use-set",
+              "title": "useSet"
             }
           ]
         },

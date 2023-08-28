@@ -64,7 +64,7 @@ function createUseStorageState(getStorage: () => Storage | undefined) {
         setState(getStoredValue());
       }, [key]);
   
-      const updateState = (value?: SetState<T>) => {
+      const updateState = (value) => {
         const currentState = isFunction(value) ? value(state) : value;
         setState(currentState);
   

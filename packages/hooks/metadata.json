@@ -1,8 +1,56 @@
 {
   "function": [
     {
+      "name": "useBoolean",
+      "description": "进行值切换的基础 hooks"
+    },
+    {
+      "name": "useCookieState",
+      "description": "进行值切换的基础 hooks"
+    },
+    {
+      "name": "useDebounce",
+      "description": "用来处理防抖值的 Hook。"
+    },
+    {
+      "name": "useDebounceFn",
+      "description": "用来处理防抖函数的 Hook。"
+    },
+    {
+      "name": "useGetState",
+      "description": "给 `React.useState` 增加了一个 getter 方法，以获取当前最新值。"
+    },
+    {
+      "name": "useLatest",
+      "description": "返回当前最新值的 Hook，可以避免闭包问题。"
+    },
+    {
+      "name": "useLocalStorageState",
+      "description": "将状态存储在 localStorage 中的 Hook 。"
+    },
+    {
+      "name": "useMap",
+      "description": "管理 Map 类型状态的 Hook。"
+    },
+    {
+      "name": "useMemoizedFn",
+      "description": "持久化 function 的 Hook，理论上，可以使用 useMemoizedFn 完全代替 useCallback。"
+    },
+    {
+      "name": "usePrevious",
+      "description": "保存上一次状态的 Hook。"
+    },
+    {
       "name": "useToggle",
       "description": "进行值切换的基础 hooks"
+    },
+    {
+      "name": "useUnmount",
+      "description": "在组件卸载（unmount）时执行的 Hook。"
+    },
+    {
+      "name": "useUpdateEffect",
+      "description": "`useUpdateEffect` 用法等同于 `useEffect`，但是会忽略首次执行，只在依赖更新时执行。"
     }
   ]
 }
